@@ -11,6 +11,7 @@ Run `terra-rs.exe` (or `terra-rs` on Linux).
 ## Building from source
 
 - Install Cargo via <https://rustup.rs> (or from your preferred package manager).
+  - If on Linux, install the `build-essential` package for your distribution.
 - Clone the repo and run `cargo build` to build a debug executable.
 - Copy `data/resources` into `target/debug`.
   - Alternatively, extract Terraria's assets (I use [TConvert](https://github.com/trigger-segfault/TConvert), which is Windows-only, but may work with Wine).
